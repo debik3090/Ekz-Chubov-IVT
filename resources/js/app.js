@@ -1,6 +1,8 @@
 import './bootstrap';
 import { createApp } from 'vue';
 
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 // Импортируем компоненты
 import ExampleComponent from './components/ExampleComponent.vue';
 import ExcelUpload from './components/ExcelUpload.vue';
